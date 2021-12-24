@@ -1,0 +1,73 @@
+body {
+  background: rgb(161, 141, 120);
+  background: linear-gradient(
+    90deg,
+    rgba(161, 141, 120, 1) 0%,
+    rgba(123, 66, 42, 1) 100%
+  );
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+}
+
+.box-player-1 {
+  background-color: rgb(245, 245, 245);
+}
+
+.box-player-2 {
+  background-color: rgb(255, 255, 255);
+}
+
+.text-red {
+  color: rgb(198, 66, 92);
+}
+
+.display-2 {
+  font-weight: 100;
+}
+
+.bg-red {
+  background: rgb(161, 141, 120);
+  background: linear-gradient(
+    90deg,
+    rgba(161, 141, 120, 1) 0%,
+    rgba(123, 66, 42, 1) 100%
+  );
+  color: white;
+}
+
+.display-5 {
+  font-size: 2rem;
+}
+
+.game {
+  /*height: 90vh;*/
+  position: relative;
+}
+
+.game-btns {
+  position: fixed;
+
+  top: 0;
+  z-index: 2;
+  left: auto;
+  right: auto;
+  width: 92%;
+}
+
+button {
+  text-transform: uppercase;
+  padding: 3px;
+  font-weight: 400;
+  font-size: 20px;
+  background: none;
+  border: none;
+}
+
+.de {
+  background-color: white;
+  color: rgb(161, 141, 120);
+  width: 8rem;
+  height: 8rem;
+  margin: 5rem;
+  border: 1px solid black;
+}
