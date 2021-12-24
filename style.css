@@ -51,7 +51,7 @@ body {
   z-index: 2;
   left: auto;
   right: auto;
-  width: 92%;
+  width: 100%;
 }
 
 button {
@@ -66,9 +66,9 @@ button {
 .de {
   background-color: white;
   color: rgb(161, 141, 120);
-  width: 8rem;
-  height: 8rem;
-  margin: 5rem;
+  width: 8em;
+  height: 8em;
+  margin: 5em;
   border: 1px solid black;
 }
 
